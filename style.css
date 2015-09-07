@@ -619,3 +619,12 @@ input.submit, input.preview, input.reset {background-color:#FFDEA9;border-color:
 .tq-g .extended_search_form .submit:hover {
 	cursor: pointer;
 }
+.icon.middle {
+	display: none;
+}
+.msg-link a {
+	margin-bottom: -4px;
+}
+.msg-link:hover {
+	background: transparent;
+}
