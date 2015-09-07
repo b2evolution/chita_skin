@@ -1,0 +1,19 @@
+/*primary color*/
+body {background-color: #6ea839;}
+#catnav, #topnav, #catnav ul li ul a, #prev-link a, #next-link a, #post-prev-next .next a, #post-prev-next .prev a, .warning  {background: #6ea839;}
+a:hover {color: #6ea839;}
+#prev-link a:hover, #next-link a:hover, #post-prev-next .next a:hover, #post-prev-next .prev a:hover {
+	border-color: #6ea839;}
+	
+/*second color*/	
+#tq-header, #tq-header ul li a:hover, #catnav ul li.selected, #topnav ul li.selected, #prev-link a:hover, #next-link a:hover, #post-prev-next .next a:hover, #post-prev-next .prev a:hover {background: #4c9a06;}
+#topnav ul, .warning, #topnav ul li, #catnav ul li, input.SearchField, #prev-link a, #next-link a, #post-prev-next .next a, #post-prev-next .prev a,input.submit, input.preview, input.reset  {border-color: #4c9a06;}
+a, h1, h2, h3, h4, h5, h6, #tq-sidebar ul,input.submit, input.preview, input.reset {	color: #4c9a06;}	
+.tri-left, .tri-right {
+border-top-color: #4c9a06;
+}
+
+/*third color*/
+#tq-header a {color:#C5E4A9;}
+.warning, input.submit, input.preview, input.reset {
+background-color: #C5E4A9;}
