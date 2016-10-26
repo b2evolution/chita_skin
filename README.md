@@ -2,6 +2,12 @@
 
 <img src="skinshot-big.png"/>
 
+### Update Log
+
+#### v1.8.1
+
+- Featured posts layout fix
+
 #### v1.8
 
 - Sitewide_header included for easier multi-blogging experience

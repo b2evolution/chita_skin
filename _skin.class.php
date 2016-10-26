@@ -16,7 +16,7 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
 
 class chita_Skin extends Skin
 {
-	var $version = '1.8';
+	var $version = '1.8.1';
 
 	function get_default_name()
 	{
@@ -30,20 +30,6 @@ class chita_Skin extends Skin
 	{
 		return 'normal';
 	}
-
-	function chita_Skin( $db_row = NULL, $skin_folder = NULL )
-	{  
-		global $skins_url;
-		parent::Skin( $db_row, $skin_folder );
-
-		if(  param( 'ctrl', 'string' ) == 'coll_settings' && param( 'tab', 'string' ) == 'skin' || param( 'tab', 'string' ) == 'skin_settings'  )
-		{
-			require_js( '#jquery#' );
-			require_js( $skins_url . 'chita/rsc/colorpicker.js',true );
-			require_js( $skins_url . 'chita/rsc/iphone-style-checkboxes.js',true );
-			require_css( $skins_url . 'chita/rsc/extensions.css', true );
-		}
-	} 
 
 	/**
    	 * Get definitions for editable params
@@ -550,6 +536,11 @@ class chita_Skin extends Skin
 	{
 		// call parent:
 		parent::display_init();
+		
+			require_js( '#jquery#' );
+			require_js( 'chita/rsc/colorpicker.js',true );
+			require_js( 'chita/rsc/iphone-style-checkboxes.js',true );
+			require_css( 'chita/rsc/extensions.css', true );
 
 		// Make sure standard CSS is called ahead of custom CSS generated below:
 		require_css( 'style.css', true );

@@ -458,8 +458,8 @@ th.bCalendarHeaderCell {
 }
 
 div.featured_post {
-	margin: 0 2ex;
-	padding: 0 1ex;
+	padding: 1ex 1.5ex;
+	margin-bottom: 20px;
 }
 
 
